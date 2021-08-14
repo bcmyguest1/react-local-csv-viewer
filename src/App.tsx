@@ -68,7 +68,7 @@ function App() {
 
 function CsvUploader(props: any) {
     return (<React.Fragment>
-        <button onClick={props.handleClick}>Upload games sheet
+        <button onClick={props.handleClick}>Upload csv sheet
 
         </button>
 
