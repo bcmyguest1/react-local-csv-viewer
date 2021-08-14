@@ -58,7 +58,7 @@ function App() {
             <header className="App-header">
                 CSV File Reader
             </header>
-            <input onChange={changeFile} type='file' id='file' ref={inputFile} style={{display: 'none'}}/>
+            <input onChange={changeFile} type='file' id='file' accept='.csv' ref={inputFile} style={{display: 'none'}}/>
             <CsvUploader handleClick={handleClick} fileMessage={fileMessage}>
             </CsvUploader>
             <ObjectListDisplay objects={fileData}/>
